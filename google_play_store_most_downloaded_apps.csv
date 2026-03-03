@@ -1,0 +1,88 @@
+App,Developer,Downloads,Date_Reached,Date_Published,Category,Pre_installed,Type,Price
+Google Play Services,Google,10B+,2020-08-01,2012-09-26,Tools,Yes,Free,
+YouTube,Google,10B+,2021-08-04,2010-10-20,Video editor & social media,Yes,Free,
+Google Maps,Google,10B+,2021-11-16,2012-12-12,Mapping,Yes,Free,
+Speech Services by Google,Google,10B+,2021-11-18,2013-10-10,Accessibility tool,Yes,Free,
+Google Search,Google,10B+,2021-11-19,2010-08-12,Search tool,Yes,Free,
+Google Chrome,Google,10B+,2021-12-04,2012-02-07,Web browser,Yes,Free,
+Gmail,Google,10B+,2022-01-16,2010-09-21,E-mail,Yes,Free,
+Android Accessibility Suite,Google,10B+,2022-12-18,Unknown,Accessibility tool,Yes,Free,
+Facebook,Meta,10B+,2023-03-01,2011-08-09,Social media,Yes*,Free,
+Google Photos,Google,10B+,2023-12-17,2015-05-28,Photo/Video manager,Yes,Free,
+Android System WebView,Google,10B+,2023-12-17,2015-03-10,Tools,Yes,Free,
+Google Drive,Google,10B+,2024-01-01,2011-04-27,Cloud storage,Yes*,Free,
+Android Switch,Google,10B+,2024-10-07,2021-07-21,File manager,Yes,Free,
+WhatsApp Messenger,Meta,10B+,2025-01-01,2010-08-18,Communication,No,Free,
+Gboard,Google,10B+,2025-02-26,2015-01-26,Keyboard,Yes*,Free,
+Google TV,Google,10B+,2025-07-05,2011-06-03,Video player,Yes,Free,
+Google Meet,Google,10B+,2025-07-05,2016-08-18,Communication,Yes*,Free,
+YouTube Music,Google,5B-10B,2019-11-01,2015-11-12,Music,Yes*,Free,
+Messenger,Meta,5B-10B,2021-05-15,2014-01-30,Communication,No,Free,
+Google Hangouts,Google,5B-10B,2021-06-03,,Communication,,Free,
+Samsung Push Service,Samsung,5B-10B,2022-06-03,2013-03-29,Communication,Yes*,Free,
+Google Play Games,Google,5B-10B,2022-08-14,2013-07-24,Games,Yes*,Free,
+Android Auto,Google,5B-10B,2023-06-03,2015-03-19,App manager for automobile,Yes,Free,
+Google Calendar,Google,5B-10B,2023-06-03,2012-10-17,Calendar & organiser,Yes*,Free,
+Instagram,Meta,5B-10B,2023-09-01,2012-04-03,Social media,Yes*,Free,
+Google Messages,Google,5B-10B,2023-10-02,2014-11-12,Communication,Yes*,Free,
+Digital Wellbeing,Google,5B-10B,2023-11-01,2018-08-08,Lifestyle,No,Free,
+Carrier Services,Google,5B-10B,2023-12-02,2017-03-13,Communication,Yes*,Free,
+Google Play Services for AR,Google,5B-10B,2025-01-01,2017-12-11,Tools,Yes*,Free,
+Files by Google,Google,5B-10B,2025-03-01,2017-12-05,Storage cleaner & file manager,Yes*,Free,
+Google Currents,Google,1B-5B,2014-12-27,2011-06-28,Social media,Yes*,Free,
+Google Play Books,Google,1B-5B,2015-06-01,2010-12-06,Books & reference,Yes*,Free,
+Google News,Google,1B-5B,2015-09-20,2012-06-27,News & magazines,No,Free,
+Google Street View,Google,1B-5B,2017-06-23,2010-09-09,Travel & local,Yes*,Free,
+Skype,Microsoft,1B-5B,2017-11-02,2010-10-04,Communication,Yes*,Free,
+Subway Surfers,Kiloo,1B-5B,2018-04-01,2012-09-20,Games & arcade,No,Free,
+Facebook Lite,Meta,1B-5B,2018-12-16,2015-01-28,Social media,Yes*,Free,
+Snapchat,Snap Inc.,1B-5B,2019-07-18,2012-10-29,"Photo/Video editor, social media & mapping",No,Free,
+Microsoft Word: Edit Documents,Microsoft,1B-5B,2019-07-14,2015-01-06,Word processor,Yes*,Free,
+Microsoft OneDrive,Microsoft,1B-5B,2019-09-15,2012-08-28,Cloud storage,Yes*,Free,
+TikTok,ByteDance,1B-5B,2020-04-11,2015-07-09,Video editor & social media,Yes*,Free,
+X,X Corp,1B-5B,2020-07-16,2010-04-30,Social media,Yes*,Free,
+Netflix,"Netflix, Inc",1B-5B,2020-08-02,2016-01-06,Media streaming,Yes*,Free,
+Dropbox,"Dropbox, Inc.",1B-5B,2020-09-02,2010-05-04,Cloud storage,No,Free,
+Google Docs,Google,1B-5B,2020-11-01,2014-04-30,Word processor,Yes*,Free,
+Google Translate,Google,1B-5B,2021-04-04,2010-01-01,Translation,Yes*,Free,
+Spotify,Spotify AB,1B-5B,2021-05-01,2014-05-27,Music & audio streaming,No,Free,
+Free Fire,Garena,1B-5B,2021-07-17,2017-09-30,"Games, action & shooter",No,Free,
+Google Sheets,Google,1B-5B,2021-07-17,2014-04-30,Spreadsheet,Yes*,Free,
+Telegram,Telegram FZ-LLC,1B-5B,2021-10-15,2013-09-06,Communication,No,Free,
+LinkedIn,LinkedIn,1B-5B,2022-03-04,2011-04-07,Business,No,Free,
+Zoom,zoom.us,1B-5B,2023-06-04,2012-09-10,Communication,No,Free,
+WhatsApp Business,Meta,1B-5B,2023-08-03,2018-01-22,Communication,No,Free,
+Roblox,Roblox Corporation,1B-5B,2024-07-02,2014-07-16,Games & MMO,No,Free,
+LINE: Calls & Messages,Line Corporation,500M-1B,2016-05-22,2011-06-23,Communication,No,Free,
+Duolingo,Duolingo Inc.,500M-1B,Unknown,Unknown,Games & education,No,Free,
+Temple Run 2,Imangi Studios,500M-1B,2018-01-13,2013-01-23,Games & action,No,Free,
+Clash of Clans,Supercell,500M-1B,2018-11-16,2013-09-30,Games & strategy,No,Free,
+Uber,"Uber Technologies, Inc.",500M-1B,2019-07-22,2010-10-28,Travel,No,Free,
+Pinterest,Pinterest,500M-1B,2020-10-01,2012-08-14,Social media,No,Free,
+Pokémon GO,Niantic,500M-1B,2024-01-01,2016-07-06,"Games & MMO, AR",No,Free,
+PUBG MOBILE,PROXIMA BETA,500M-1B,2021-06-01,2018-03-19,"Games, action & shooter",No,Free,
+Amazon Shopping,Amazon Mobile LLC,500M-1B,2021-09-01,2014-12-10,Shopping,No,Free,
+Among Us,Innersloth,500M-1B,2022-07-02,2018-06-15,Games & social deduction,No,Free,
+CapCut - Video Editor,ByteDance,500M-1B,2022-12-22,2020-04-10,Video editor,No,Free,
+Waze Navigation & Live Traffic,Waze Mobile Ltd.,500M-1B,2023-12-23,2009-12-17,Mapping,No,Free,
+Minecraft,Mojang Studios,10M+,2015-09-01,2011-08-15,Games & arcade,No,Paid,$6.99
+Hitman Sniper,Square Enix Montreal,10M+,2018-07-11,2015-06-03,"Games, action & shooter",No,Paid,$0.99
+Stickman Legends Offline Games,ZITGA PTE. LTD.,10M+,2020-04-19,2017-05-10,Games & action,No,Paid,$0.99
+Shadow of Death: Dark Knight,Zonmob Game Studio,10M+,2020-10-01,2018-04-03,Games & action,No,Paid,$3.99
+Castle app,Castle app Team,10M+,2022-10-01,2018-04-03,Entertainment,No,Paid,$3.00
+True Skate,True Axis,5M-10M,2019-06-01,2013-07-19,Games & sports,No,Paid,$1.99
+Poweramp Full Version Unlocker,Max MP,5M-10M,2020-02-01,2010-11-07,Music & audio,No,Paid,$6.99
+Geometry Dash,RobTop Games,5M-10M,2021-09-01,2013-08-12,Games & arcade,No,Paid,$1.99
+Nova Launcher Prime,TeslaCoil Software,5M-10M,2021-10-17,2012-02-23,Personalization,No,Paid,$4.99
+Grand Theft Auto: San Andreas,Rockstar Games,5M-10M,2023-07-01,2013-12-19,"Games, action & shooter",No,Paid,$6.99
+Monument Valley,ustwo games,5M-10M,2023-10-02,2014-05-14,Games & puzzle,No,Paid,$3.99
+"BlockP app : Website, Apps and Porn Blocker.",NovaFocus pvt ltd,1M-5M,2024-08-06,2022-09-20,Productivity,No,Paid,$1.99
+Camera ZOOM FX Premium,androidslide,1M-5M,2012-03-19,Unknown,Photo editor,No,Paid,$4.99
+Fruit Ninja Classic,Halfbrick Studios,1M-5M,2012-06-24,2010-09-15,Games & arcade,No,Paid,$0.99
+Grand Theft Auto III,Rockstar Games,1M-5M,2013-04-24,2011-12-14,"Games, action & shooter",No,Paid,$4.99
+Threema,Threema GmbH,1M-5M,2014-07-18,2013-05-27,Communication,No,Paid,$5.00
+Terraria,505 Games Srl.,1M-5M,2016-02-20,2013-09-25,Games & adventure,No,Paid,$4.99
+Tasker,joaomgcd,1M-5M,2016-08-01,2010-07-03,Tools,No,Paid,$3.49
+Goat Simulator,Coffee Stain Publishing,1M-5M,2017-01-11,2014-09-16,Games & simulation,No,Paid,$6.99
+Stardew Valley,Chucklefish Limited,1M-5M,2020-10-01,2019-03-14,Games & role-playing,No,Paid,$4.99
+Monument Valley 2,ustwo games,1M-5M,2020-04-01,2017-11-06,Games & puzzle,No,Paid,$3.99

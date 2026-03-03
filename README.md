@@ -41,3 +41,46 @@ W pierwszej kolejności dane zostały poddane standardowym procedurom ETL. Wykor
 6. Brakujące wartości:
    - brak jednej wartości w "Date_reached" oraz czterech w "Date_published" - pozostawiono je,
    - brak jednej wartości w "Pre-installed" dla aplikacji "Google Hangouts", odnaleziono jednak informację, że apliakcja ta niegdyś była domyślnie instalowana na urządzeniach mobilnych, więc uzupełnioną tę informację.
+
+## 🧠 Analiza
+
+### 1️⃣ Jakie aplikacje należą do topki?
+
+Do analizy wybrano kolumny z nazwą, liczbą pobrań i informacją o pre-instalaji. Celem było pokazanie 5-ciu topowych aplikacji, jednak ze względu na za mało dokładne dane pokazane zostały wszystkie aplikacje o takiej samej liczbie pobrań.
+
+W celu wyłonienia 5-ciu najczęściej pobieranych aplikacji użytko formuły:
+
+`=FILTRUJ(STOS.POZ(Dane[App]; Dane[Downloads_Numeric]); Dane[Downloads_Numeric] >= MAX.K(Dane[Downloads_Numeric];5))`
+
+Dane zawierają kolumnę "Pre-installed", co oznacza że część aplikacji zostało pobranych przez producenta i mogło to znacząco wpłynąć na wyniki.
+
+![Dashboard](img/img5.png)
+
+Formuły kolejno pokazujące 5 najlepszych aplikacji pre-instalowanych i nie pre-instalowanych:
+
+`=SORTUJ(FILTRUJ(STOS.POZ(Dane[App]; Dane[Downloads_Numeric]); (LEWY(Dane[Pre_installed];3) = "Yes") * Dane[Downloads_Numeric] >= MAX.K(FILTRUJ(Dane[Downloads_Numeric]; LEWY(Dane[Pre_installed];3) = "Yes"); 5)); 2; -1)`
+
+`=SORTUJ(FILTRUJ(STOS.POZ(Dane[App]; Dane[Downloads_Numeric]); (Dane[Pre_installed]= "No") * Dane[Downloads_Numeric] >= MAX.K(FILTRUJ(Dane[Downloads_Numeric]; Dane[Pre_installed] = "No"); 5)); 2; -1)`
+
+Tabele:
+
+![Dashboard](img/img4.png)
+
+#### Wnioski
+
+Pre-instalacja ma decydujący wpływ na popularność i zasięg danej aplikacji. Użytkownicy rzadziej szukają alternatyw dla aplikacji, które otrzymali wraz z zakupem urządzeń mobilnych.
+
+Kolorami zostały porównanie powtarzające się wartości, jedynie jedna aplikacja znalazła się w ścisłej czołówce i jest to _WhatsApp Messenger_, co świadczy o niezwykłej popualrności tej aplikacji i świadomym wyborze użytkowników.
+
+### 2️⃣ Jakie kategorie są najczęściej pobierane?
+
+Prócz informacji, czy aplikacje zostały preinstalowane, ważna jest także informacja na temat ich kategorii. Preinstalowane aplikacje to w większości wypadków apliakcja potrzebne lub pomagające w codziennym funkcjonowaniu użytkownika.
+Ponadto 10% topowych aplikacji to apliakcje nie preinstalowane, więc informacja o najczęstrzych kategoriach również jest ważna.
+
+![Dashboard](img/img6.png)
+
+#### Wnioski
+
+Zdecydowanie widać dominację komunikatorów, do których zalicza się m.in. _WhatsApp Messenger_, nie jest to dziwne zważywszy na ogólnodostępną sieć komórkową przez co użytkownicy coraz częściej wybierają darmowe aplikacja niż połączenie telefoniczne czy sms'y.
+
+Urządzenia mobilne, choć wciąż służące głównie jako komunikaotry, coraz częściej służą także rozrywce
