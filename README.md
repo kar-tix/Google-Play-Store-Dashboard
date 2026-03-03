@@ -22,7 +22,7 @@ Krótka, osobna analiza aplikacji, które osięgnły liczbę pobrań w przedzial
 
 1. Jakie aplikacje należą do topki?
 2. Jakie kategorie są najczęściej pobierane?
-3. Który developer góruje na rynku? Który ma najwięcej aplikacji?
+3. Developer z największa ilością pobrań i aplikacji?
 4. Ile zarobiły płatne aplikacje?
 
 ## ⚙️ Przygotowanie danych
@@ -74,13 +74,52 @@ Kolorami zostały porównanie powtarzające się wartości, jedynie jedna aplika
 
 ### 2️⃣ Jakie kategorie są najczęściej pobierane?
 
-Prócz informacji, czy aplikacje zostały preinstalowane, ważna jest także informacja na temat ich kategorii. Preinstalowane aplikacje to w większości wypadków apliakcja potrzebne lub pomagające w codziennym funkcjonowaniu użytkownika.
+Prócz informacji, czy aplikacje zostały preinstalowane, ważna jest także informacja na temat ich kategorii. Preinstalowane aplikacje to w większości wypadków apliakcje potrzebne lub pomagające w codziennym funkcjonowaniu użytkownika.
 Ponadto 10% topowych aplikacji to apliakcje nie preinstalowane, więc informacja o najczęstrzych kategoriach również jest ważna.
 
 ![Dashboard](img/img6.png)
 
 #### Wnioski
 
-Zdecydowanie widać dominację komunikatorów, do których zalicza się m.in. _WhatsApp Messenger_, nie jest to dziwne zważywszy na ogólnodostępną sieć komórkową przez co użytkownicy coraz częściej wybierają darmowe aplikacja niż połączenie telefoniczne czy sms'y.
+Zdecydowanie widać dominację komunikatorów, do których zalicza się m.in. _WhatsApp Messenger_, nie jest to dziwne zważywszy na to, że pierwotnym zastosowaniem smartfonów była komunikacja, ponadto dostęp do ogólnodostępnej sieci komórkowej sprawił, że użytkownicy coraz częściej wybierają darmowe aplikacja niż połączenie telefoniczne czy sms'y.
 
-Urządzenia mobilne, choć wciąż służące głównie jako komunikaotry, coraz częściej służą także rozrywce
+W ostatnich latach nastąpił gwałtowny wzrost technologii, a urządzenia mobilne stały się już nie tylko komunikatorami, ale także miejscami zapewniającymi rozrywkę, dlatego social media plasują się na drugim miejscu i chociaż wziąć dużo im brakuje do łącznej liczby pobrań komunikatórw, to w nadchodzacych latach różnica ta może się zmniejszyć.
+
+### 3️⃣ Developer z największa ilością pobrań i aplikacji?
+
+Przyglądając się najpopularniejszym aplikacjom, można zauważyć, że znaczna większość należy do firmy _Google_. Sumaryczna liczba pobrań dalego developera wygląda następująco:
+
+![Dashboard](img/img9.png)
+![Dashboard](img/img7.png)
+
+Firma _Google_ ma dominującą pozycję na rynku aplikacji mobilnych, o który dba, aby pozostać w cisłej czołówce. Fakt, że większość aplikacji Google jest preinstalowana, bezpośrednio przekłada się na astronomiczne liczby pobrań, a także na liczbę aplikacji znajdujących się w ścisłej czołówce.
+
+![Dashboard](img/img8.png)
+
+#### Wnioski
+
+_Google_ nie ma realnej konkurencji na rynku aplikacji mobilnych na Androidzie. Firma jest właścicielem większości czołowych aplikacji. _Meta_ można nazwać samodzielnym gigantem, wyróżniającym się spośród reszty developerów (poza Google), warto zauważyć, że jest właścicielem _WhatsApp Messenger_, który nie jest preinstalowany na systemie i stanowi świadomy wybór użytkowników.
+
+W dashboardzie została dodana opcja wybrania developera, a na wykresie pojawią się jego aplikacje i liczba pobrań.
+
+![Dashboard](img/img10.png)
+![Dashboard](img/img11.png)
+
+### 4️⃣ Ile zarobiły płatne aplikacje?
+
+Dane poddane analizie zostały podzielone na płatne i darmowe, a płatne na kategorie. Jak można było domniemywać, znaczącą większość stanowią gry.
+
+W danych kategoria "Games" była bardzo rozległa, w końcu same gry mają wiele gatunków, dlatego zastosowno formułę, która ujedoliciła przypisanywane kategorie:
+
+`=LET(kategoria; X.WYSZUKAJ(A2;Dane[App]; Dane[Category]); JEŻELI(CZY.LICZBA(SZUKAJ.TEKST("Games"; kategoria)); "Games"; "Inne"))`
+
+![Dashboard](img/img12.png)
+![Dashboard](img/img14.png)
+
+Płatne aplikacje prezentują się następująco:
+
+![Dashboard](img/img13.png)
+
+#### Wnioski
+
+Cena zakupu nie jest duża, ale przy tak wielkiej liczbie pobrań potrafią one wygenerować ogromne zarobki. Pokazuje to także, że wiele osób używa smartfonów do rozrywki.
