@@ -24,6 +24,7 @@ Krótka, osobna analiza aplikacji, które osięgnły liczbę pobrań w przedzial
 2. Jakie kategorie są najczęściej pobierane?
 3. Developer z największa ilością pobrań i aplikacji?
 4. Ile zarobiły płatne aplikacje?
+5. Analiza aplikacji z 1mld pobrań.
 
 ## ⚙️ Przygotowanie danych
 
@@ -122,4 +123,14 @@ Płatne aplikacje prezentują się następująco:
 
 #### Wnioski
 
-Cena zakupu nie jest duża, ale przy tak wielkiej liczbie pobrań potrafią one wygenerować ogromne zarobki. Pokazuje to także, że wiele osób używa smartfonów do rozrywki.
+Ceny zakupu nie są duże, ale przy tak wielkiej liczbie pobrań potrafią one wygenerować ogromne zarobki. Mimo to aż 76% aplikacji jest darmowych, a więkość płatnych to gry, które mogły być wypromowane przez reklamy, chociaż nie zmiania to faktu iż żadna gra nie jest preinstalowana, więc wszystkie pobrania są świadomymi działaniami użytkowników.
+
+Pomimo dominującego modelu darmowych aplikacji - a przynajmniej ich podstawowych wersji - płatne aplikacje także potrafią przyciągnąc użytkowników. Drugi wykres kołowy pokazuje także, że użytkownicy o wiele częściej są skłonni wydać pieniądze na rozrywkę, a nie inne aplikacje użytkowe.
+
+### 5️⃣ Analiza aplikacji z 1mld pobrań
+
+Do przeprowadzenia dokładniejszej analizy wybrano te aplikacje, które osiągnęły przedział pobrań 1-5mld - ta grupa okazała się najliczniejsza, licząca aż 24 aplikacje. Przeprowadzono na tej grupie podstawowe obliczenia: średnia, mediana, Q1, Q3 dla liczby dni oraz średniej liczby osób na dzień.
+
+![Dashboard](img/img15.png)
+
+### 💡 Wnioski
